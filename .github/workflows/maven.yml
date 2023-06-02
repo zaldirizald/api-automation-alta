@@ -3,9 +3,9 @@ name: API Automation Testing in CI/CD Pipeline
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "maain" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build:
